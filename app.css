@@ -3,14 +3,24 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #4C230A;
+    background-color: #A53F2B;
 }
 
 button {
     background: none;
     color: #CCC9A1;
-    border: 2px solid;
-    padding: 1em 2em;
+    border: 2.5px solid;
+    padding: 0.6em 1.5em;
     font-family: 'Roboto Mono';
     font-size: 1em;
+    font-weight: bolder;
+    transition: transform 0.25s;
+}
+
+button:hover {
+    border-color: #F0FFCE;
+    color: #F0FFCE;
+    box-shadow: 0em 0.5em 0.5em -0.4em #CCC9A1;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
